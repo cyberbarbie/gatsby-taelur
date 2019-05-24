@@ -105,7 +105,8 @@ const Header = ({ siteTitle }) => (
       <p>
         <HomeLink to="/">{siteTitle}</HomeLink>
         <DevLink target="_blank" href="https://dev.to/taeluralexis">Blog</DevLink>
-        <GitHubLink href="https://github.com/cyberbarbie">GitHub</GitHubLink>
+        <NavLink to="/resume">Resume</NavLink>
+        <GitHubLink target="_blank" href="https://github.com/cyberbarbie">GitHub</GitHubLink>
       </p>
     </Content>
   </SiteHeader>
