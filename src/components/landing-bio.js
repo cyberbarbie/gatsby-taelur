@@ -44,7 +44,7 @@ const LandingBio = () => (
       <OuterContainer>
         <Container>
           <NameHeader>{data.site.siteMetadata.title}</NameHeader>
-          <Description>Software Developer</Description>
+          <Description>I am a Software Developer with a passion for sharing my love for programming with the community through tutorials, livestreams and blog posts. I love to share my knowledge at conferences around the world and look forward to what 2020 brings!</Description>
         </Container>
       </OuterContainer>
     )}
